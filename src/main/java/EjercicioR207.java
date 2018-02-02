@@ -5,7 +5,7 @@ class EjercicioR207
     public String devolverEnOrden(ArrayList<String> palabras)
     {
         String stringADevolver = "";
-
+	//pruebas
         if (palabras.size() > 0){
             for (int i = 0; i < palabras.size() - 1; i++){
                 for (int j = 0; j < palabras.size() - 1 - i; j++){
